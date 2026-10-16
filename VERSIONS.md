@@ -57,6 +57,10 @@ Current versions of all skills. Agents can compare against local versions to che
 
 ## Recent Changes
 
+### 2.11.38 (2026-10-15)
+
+- Return a failure exit status for HTTP-rejected requests in the remaining 33 CLI transports, preserving provider diagnostics and stopping rejected OAuth responses before resource requests.
+
 ### 2.11.37 (2026-10-15)
 
 Copywriting and ads now read the learnings ledger added to product-marketing in 2.11.34.
